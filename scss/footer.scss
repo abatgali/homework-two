@@ -1,0 +1,32 @@
+footer {
+    height: auto;
+    background-color: #8a9675;
+    padding: 3em;
+    
+    text-align: center;
+
+    p {
+        width: 75%;
+        margin: 1em auto;
+        line-height: 1.9em;
+        font-weight: lighter;
+    }
+
+    #footer-links {
+        
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1.5em;
+        padding: 3em;
+
+        div {
+            line-height: 1.8em;
+            
+            ul {
+                list-style: none;
+                
+            }
+            
+        }
+    }
+}

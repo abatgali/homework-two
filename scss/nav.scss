@@ -1,0 +1,25 @@
+nav {
+    background-color: black;
+    height: 50px;
+
+    #links {
+        display: flex;
+        justify-content: space-around;
+
+        height: 100%;
+        margin: 0 auto;
+        font-weight: bold;
+        font-size: 14px;
+        width: 90%;
+        align-items: center;
+        align-content: center;
+
+        a {
+            text-decoration: none;
+            color: #D0CFCD;
+        }
+
+    }
+    
+}
+

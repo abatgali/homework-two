@@ -1,0 +1,204 @@
+#dispatch {
+    font-size: 15px;
+    width: 100%;
+    height: auto;
+    background-color: #DDDEDA;
+    text-align: center;
+    padding: 1em 0;
+
+    #dispatch-images {
+
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2.4em;
+        margin: 0 auto;
+        width: 95%;
+
+        .pics {
+            height: 130px;
+            width: 193px;
+            background-color: aquamarine;
+            background-size: cover;
+            background-position: center center;
+            margin: 2em 0;
+        }
+
+        #one {
+            background-image: url(../images/dispatch-images/Badlands21_Carlos_Mazon_DSC05497.jpeg);
+
+        }
+
+        #two {
+            background-image: url(../images/dispatch-images/beyond-familiar-bikepacking-moab_10-2000x1333.jpeg);
+     
+        }
+
+        #three {
+            background-image: url(../images/dispatch-images/rockgeist-barjam-update-main-2000x1333.jpeg);
+        }
+
+        #four {
+            background-image: url(../images/dispatch-images/Tumbleweed-Stargazer-Review-Video_00-2000x1333.jpeg);
+        }
+        #five {
+            background-image: url(../images/dispatch-images/Whisky-Spano-Drop-Handlebar_7-2000x1334.jpeg);
+        }
+        #six {
+            background-image: url(../images/hero.jpeg);
+        }
+    }
+}
+
+#banner-box {
+    padding-top: 3em;
+    
+    text-align: center;
+    background-color: rgb(255, 249, 242)  ;
+
+    #banner {
+
+        width: 80%;
+        height: 126px;
+        background-color: beige;
+        margin: 0 auto 4em auto;
+        background-image: url(../images/ORTLIEB_Banner_Bikepacking_wide_March-2021.jpeg);
+        background-size: cover;
+    }
+
+    p {
+        width: 60%;
+        margin: 0 auto 4em;
+    }
+
+    #one-o-one {
+        background-image: url(../images/bikepacking-101_sm.png);
+        width: 80%;
+        height: 350px;
+        background-size: contain;
+        background-position: center;
+        margin: 0 auto 3em;
+    }
+
+    #explore {
+        display: flex;
+        flex-wrap: wrap;
+        width: fit-content;
+        margin: 0 auto;
+
+        .e-pics {
+            width: 320px;
+            height: 320px;
+            background-size: cover;
+            background-position: center;
+        }
+
+        #exp-one {
+            background-image: url(../images/explore-images/home-explore-bikes.jpeg);
+        }
+
+        #exp-two {
+            background-image: url(../images/explore-images/home-explore-gear.jpeg);
+        }
+
+        #exp-three {
+            background-image: url(../images/explore-images/home-explore-packlists.jpeg);
+        }
+
+        #exp-four {
+            background-image: url(../images/explore-images/home-explore-routes.jpeg);
+        }
+    }
+
+    #sponsors {
+
+        #sponsor-container {
+            width: 90%;
+            height: auto;
+            display: flex;
+            flex-wrap: wrap;
+            margin: 0 auto;
+            padding-bottom: 4em;
+            gap: 2em 4em;
+            
+            
+            .sponsor-pics {
+
+                width: 150px;
+                height: 150px;
+
+                // background-color: white;
+                background-position: center bottom;
+                background-size: cover;
+                filter: grayscale(100%);
+                opacity: 50%;
+
+                
+            }
+
+            .sponsor-pics:hover {
+                filter: none;
+                opacity: 100%;
+            }
+
+            #sp-one {
+                
+                background-image: url(../images/sponsors/sponsor-logo-bigagnes.png);
+            }
+
+            #sp-two {
+                
+                background-image: url(../images/sponsors/sponsor-logo-jones.png);
+            }
+
+            #sp-three {
+                
+                background-image: url(../images/sponsors/sponsor-logo-kona.png);
+            }
+
+            #sp-four {
+                
+                background-image: url(../images/sponsors/sponsor-logo-ortlieb.png);
+            }
+
+            #sp-five {
+                
+                background-image: url(../images/sponsors/sponsor-logo-pedaled-v2.png);
+            }
+
+            #sp-six {
+                
+                background-image: url(../images/sponsors/sponsor-logo-revelate.png);
+            }
+
+            #sp-seven {
+                
+                background-image: url(../images/sponsors/sponsor-logo-salsa.png);
+            }
+
+            #sp-eight {
+                
+                background-image: url(../images/sponsors/sponsor-logo-surly.png);
+            }
+
+            #sp-nine {
+                
+                background-image: url(../images/sponsors/sponsor-logo-teravail.png);
+            }
+
+            #sp-ten {
+                
+                background-image: url(../images/sponsors/sponsor-logo-voile.png);
+            }
+
+            #sp-elev {
+                
+                background-image: url(../images/sponsors/sponsor-logo-wolftooth.png);
+            }
+
+            #sp-twel {
+                
+                background-image: url(../images/sponsors/sponsor-logo-brooks.png);
+            }
+        }
+    }
+}

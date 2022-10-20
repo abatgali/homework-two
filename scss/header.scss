@@ -1,0 +1,21 @@
+header {
+    background-image: url(../images/dispatch-images/old-man-mountain-divide-rack_1-2000x1333.jpeg);
+    height: 100%;
+    width: 100%;
+    background-position: center center;
+    background-size: cover;
+    align-items: center;
+    align-content: center;
+
+    div {
+        text-align: center;
+        color: #f2f1ee;
+        font-size: 38px;
+        font-weight: bolder;
+        margin-top: 7em;
+
+        p {
+            font-size: 14px;
+        }
+    }
+}

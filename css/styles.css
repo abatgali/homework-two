@@ -1,0 +1,250 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: "Gotham";
+}
+
+@font-face {
+  font-family: "Gotham";
+  src: url(../lib/Gotham-Font/Gotham-Bold.otf);
+}
+nav {
+  background-color: black;
+  height: 50px;
+}
+nav #links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 100%;
+  margin: 0 auto;
+  font-weight: bold;
+  font-size: 14px;
+  width: 90%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+nav #links a {
+  text-decoration: none;
+  color: #D0CFCD;
+}
+
+header {
+  background-image: url(../images/dispatch-images/old-man-mountain-divide-rack_1-2000x1333.jpeg);
+  height: 100%;
+  width: 100%;
+  background-position: center center;
+  background-size: cover;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+header div {
+  text-align: center;
+  color: #f2f1ee;
+  font-size: 38px;
+  font-weight: bolder;
+  margin-top: 7em;
+}
+header div p {
+  font-size: 14px;
+}
+
+#dispatch {
+  font-size: 15px;
+  width: 100%;
+  height: auto;
+  background-color: #DDDEDA;
+  text-align: center;
+  padding: 1em 0;
+}
+#dispatch #dispatch-images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 2.4em;
+  margin: 0 auto;
+  width: 95%;
+}
+#dispatch #dispatch-images .pics {
+  height: 130px;
+  width: 193px;
+  background-color: aquamarine;
+  background-size: cover;
+  background-position: center center;
+  margin: 2em 0;
+}
+#dispatch #dispatch-images #one {
+  background-image: url(../images/dispatch-images/Badlands21_Carlos_Mazon_DSC05497.jpeg);
+}
+#dispatch #dispatch-images #two {
+  background-image: url(../images/dispatch-images/beyond-familiar-bikepacking-moab_10-2000x1333.jpeg);
+}
+#dispatch #dispatch-images #three {
+  background-image: url(../images/dispatch-images/rockgeist-barjam-update-main-2000x1333.jpeg);
+}
+#dispatch #dispatch-images #four {
+  background-image: url(../images/dispatch-images/Tumbleweed-Stargazer-Review-Video_00-2000x1333.jpeg);
+}
+#dispatch #dispatch-images #five {
+  background-image: url(../images/dispatch-images/Whisky-Spano-Drop-Handlebar_7-2000x1334.jpeg);
+}
+#dispatch #dispatch-images #six {
+  background-image: url(../images/hero.jpeg);
+}
+
+#banner-box {
+  padding-top: 3em;
+  text-align: center;
+  background-color: rgb(255, 249, 242);
+}
+#banner-box #banner {
+  width: 80%;
+  height: 126px;
+  background-color: beige;
+  margin: 0 auto 4em auto;
+  background-image: url(../images/ORTLIEB_Banner_Bikepacking_wide_March-2021.jpeg);
+  background-size: cover;
+}
+#banner-box p {
+  width: 60%;
+  margin: 0 auto 4em;
+}
+#banner-box #one-o-one {
+  background-image: url(../images/bikepacking-101_sm.png);
+  width: 80%;
+  height: 350px;
+  background-size: contain;
+  background-position: center;
+  margin: 0 auto 3em;
+}
+#banner-box #explore {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+}
+#banner-box #explore .e-pics {
+  width: 320px;
+  height: 320px;
+  background-size: cover;
+  background-position: center;
+}
+#banner-box #explore #exp-one {
+  background-image: url(../images/explore-images/home-explore-bikes.jpeg);
+}
+#banner-box #explore #exp-two {
+  background-image: url(../images/explore-images/home-explore-gear.jpeg);
+}
+#banner-box #explore #exp-three {
+  background-image: url(../images/explore-images/home-explore-packlists.jpeg);
+}
+#banner-box #explore #exp-four {
+  background-image: url(../images/explore-images/home-explore-routes.jpeg);
+}
+#banner-box #sponsors #sponsor-container {
+  width: 90%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0 auto;
+  padding-bottom: 4em;
+  gap: 2em 4em;
+}
+#banner-box #sponsors #sponsor-container .sponsor-pics {
+  width: 150px;
+  height: 150px;
+  background-position: center bottom;
+  background-size: cover;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+  opacity: 50%;
+}
+#banner-box #sponsors #sponsor-container .sponsor-pics:hover {
+  -webkit-filter: none;
+          filter: none;
+  opacity: 100%;
+}
+#banner-box #sponsors #sponsor-container #sp-one {
+  background-image: url(../images/sponsors/sponsor-logo-bigagnes.png);
+}
+#banner-box #sponsors #sponsor-container #sp-two {
+  background-image: url(../images/sponsors/sponsor-logo-jones.png);
+}
+#banner-box #sponsors #sponsor-container #sp-three {
+  background-image: url(../images/sponsors/sponsor-logo-kona.png);
+}
+#banner-box #sponsors #sponsor-container #sp-four {
+  background-image: url(../images/sponsors/sponsor-logo-ortlieb.png);
+}
+#banner-box #sponsors #sponsor-container #sp-five {
+  background-image: url(../images/sponsors/sponsor-logo-pedaled-v2.png);
+}
+#banner-box #sponsors #sponsor-container #sp-six {
+  background-image: url(../images/sponsors/sponsor-logo-revelate.png);
+}
+#banner-box #sponsors #sponsor-container #sp-seven {
+  background-image: url(../images/sponsors/sponsor-logo-salsa.png);
+}
+#banner-box #sponsors #sponsor-container #sp-eight {
+  background-image: url(../images/sponsors/sponsor-logo-surly.png);
+}
+#banner-box #sponsors #sponsor-container #sp-nine {
+  background-image: url(../images/sponsors/sponsor-logo-teravail.png);
+}
+#banner-box #sponsors #sponsor-container #sp-ten {
+  background-image: url(../images/sponsors/sponsor-logo-voile.png);
+}
+#banner-box #sponsors #sponsor-container #sp-elev {
+  background-image: url(../images/sponsors/sponsor-logo-wolftooth.png);
+}
+#banner-box #sponsors #sponsor-container #sp-twel {
+  background-image: url(../images/sponsors/sponsor-logo-brooks.png);
+}
+
+footer {
+  height: auto;
+  background-color: #8a9675;
+  padding: 3em;
+  text-align: center;
+}
+footer p {
+  width: 75%;
+  margin: 1em auto;
+  line-height: 1.9em;
+  font-weight: lighter;
+}
+footer #footer-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 1.5em;
+  padding: 3em;
+}
+footer #footer-links div {
+  line-height: 1.8em;
+}
+footer #footer-links div ul {
+  list-style: none;
+}
